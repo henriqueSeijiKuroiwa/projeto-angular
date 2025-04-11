@@ -16,11 +16,7 @@ interface Task {
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  tasks: Task[] = [
-    { id: 1, title: 'Aprender Angular', completed: false },
-    { id: 2, title: 'Criar lista de tarefas', completed: true },
-    { id: 3, title: 'Estilizar aplicação', completed: false },
-  ];
+  tasks: Task[] = [];
 
   newTaskTitle = '';
 
